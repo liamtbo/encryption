@@ -1,0 +1,17 @@
+
+TESTING:
+
+8. After implementing your code, test it against the provided test files. For example, by executing:
+
+  ./cipher -m c -i caesar.txt -o caesar_out.txt
+
+  a) In the above example, '-m c' means you are using the Caesar cipher method.
+
+  b) '-i caesar.txt' specifies that caesar.txt is the input file and it should contain the shift distance in the first line, and the plain text you want to encrypt in the second line.
+
+  c) '-o caesar_out.txt' specifies that caesar_out.txt is the output file and it should contain the cipher text (text after encryption) in the first line, and the decrypted text in the second line.
+
+  d) The program will also generate def_caesar_out.txt which contains the cipher text and decrypted text when the Caesar cipher object was created using the default constructor (i.e., encryption is done using 0 shift).
+
+9. See test3_error directory to see examples of errors. In those cases, the code exited with EXIT_FAILURE, so no output file was generated. The output to the console (i.e., cout or cerr) is shown. In your code, make sure you generate the same error message when it exits with EXIT_FAILURE.
+
